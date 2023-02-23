@@ -31,7 +31,7 @@ git clone https://github.com/tianpeng-deng/FedDBL.git
 ### Data and Backbone Preparation
 - We provide an example to train a FedDBL on Multi-center CRC and BCSS, where the dataset can be downloaded from [Multi-center CRC](https://doi.org/10.1016/j.ebiom.2020.103054) and [BCSS](https://bcsegmentation.grand-challenge.org/). 
 - All backbones (pre-trained models) are stored in *load* folder. The CTransPath backbone is provided [here](https://github.com/Xiyue-Wang/TransPath). 
-- The architecture of dataset is provided in folder "dataset" and also illustrated below:
+- The architecture of dataset is provided in folder "dataset" and also illustrated below (more details can be seen in /dataset/CRC/partition.txt):
 ```
     |-- dataset
         |-- CRC
@@ -45,9 +45,6 @@ git clone https://github.com/tianpeng-deng/FedDBL.git
         |    |    |    |-- Client 4
         |    |    |    |-- Centralized
         |    |    |-- Fold 2
-        |    |    |-- Fold 3
-        |    |    |-- Fold 4
-        |    |    |-- Fold 5
         |    |-- 070
         |    |    |-- Fold 1
         |    |    |    |-- Client 1
@@ -57,9 +54,6 @@ git clone https://github.com/tianpeng-deng/FedDBL.git
         |    |    |    |-- Client 4
         |    |    |    |-- Centralized
         |    |    |-- Fold 2
-        |    |    |-- Fold 3
-        |    |    |-- Fold 4
-        |    |    |-- Fold 5
         |    |-- 050
         |-- BC
 ```
