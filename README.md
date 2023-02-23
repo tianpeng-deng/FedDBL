@@ -28,8 +28,10 @@ git clone https://github.com/tianpeng-deng/FedDBL.git
 ```
 - Install python dependencies.
 
-### Data Preparation
-- We provide an example to train a FedDBL on Multi-center CRC and BCSS, where the dataset can be downloaded from [Multi-center CRC](https://doi.org/10.1016/j.ebiom.2020.103054) and [BCSS](https://bcsegmentation.grand-challenge.org/). The CTransPath backbone is provided [here](https://github.com/Xiyue-Wang/TransPath). The architecture of dataset is provided in folder "dataset" and also illustrated below:
+### Data and Backbone Preparation
+- We provide an example to train a FedDBL on Multi-center CRC and BCSS, where the dataset can be downloaded from [Multi-center CRC](https://doi.org/10.1016/j.ebiom.2020.103054) and [BCSS](https://bcsegmentation.grand-challenge.org/). 
+- All backbones (pre-trained models) are stored in *load* folder. The CTransPath backbone is provided [here](https://github.com/Xiyue-Wang/TransPath). 
+- The architecture of dataset is provided in folder "dataset" and also illustrated below:
 ```
     |-- dataset
         |-- CRC
