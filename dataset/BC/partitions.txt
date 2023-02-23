@@ -2,8 +2,14 @@
         |    |-- 100
         |    |    |-- Fold 1
         |    |    |    |-- Client 1
-        |    |    |    |    |-- Train 
+        |    |    |    |    |-- Train
+        |    |    |    |    |    |-- Class 1
+        |    |    |    |    |    |-- Class 2
+        |    |    |    |    |    |-- Class 3
         |    |    |    |    |-- Valid
+        |    |    |    |    |    |-- Class 1
+        |    |    |    |    |    |-- Class 2
+        |    |    |    |    |    |-- Class 3
         |    |    |    |-- Client 2
         |    |    |    |    |-- Train 
         |    |    |    |    |-- Valid
