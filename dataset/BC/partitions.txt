@@ -1,0 +1,39 @@
+        |-- BC
+        |    |-- 100
+        |    |    |-- Fold 1
+        |    |    |    |-- Client 1
+        |    |    |    |    |-- Train 
+        |    |    |    |    |-- Valid
+        |    |    |    |-- Client 2
+        |    |    |    |    |-- Train 
+        |    |    |    |    |-- Valid
+        |    |    |    |-- Client 3
+        |    |    |    |    |-- Train 
+        |    |    |    |    |-- Valid
+        |    |    |    |-- Client 4
+        |    |    |    |    |-- Train 
+        |    |    |    |    |-- Valid
+        |    |    |    |-- Centralized
+        |    |    |    |    |-- Train 
+        |    |    |    |    |-- Valid
+        |    |    |-- Fold 2
+        |    |    |-- Fold 3
+        |    |    |-- Fold 4
+        |    |    |-- Fold 5
+        |    |-- 070
+        |    |    |-- Fold 1
+        |    |    |    |-- Client 1
+        |    |    |    |    |-- Train
+        |    |    |    |-- Client 2
+        |    |    |    |    |-- Train 
+        |    |    |    |-- Client 3
+        |    |    |    |    |-- Train 
+        |    |    |    |-- Client 4
+        |    |    |    |    |-- Train 
+        |    |    |    |-- Centralized
+        |    |    |    |    |-- Train 
+        |    |    |-- Fold 2
+        |    |    |-- Fold 3
+        |    |    |-- Fold 4
+        |    |    |-- Fold 5
+        |    |-- 050
