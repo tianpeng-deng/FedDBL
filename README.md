@@ -1,5 +1,5 @@
 # FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification
-![outline](FedDBL.png)
+![outline](FedDBL)
 
 ## Introduction
 The iplementation of:
