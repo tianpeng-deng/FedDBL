@@ -24,7 +24,7 @@ Histopathological tissue classification is a fundamental task in computational p
 ### Installation
 - Download the repository.
 ```
-git clone https://github.com/??????
+git clone https://github.com/tianpeng-deng/FedDBL.git
 ```
 - Install python dependencies.
 
