@@ -2,7 +2,7 @@
 ![outline](FedDBL)
 
 ## Introduction
-The iplementation of:
+The implementation of:
 
 FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification
 
