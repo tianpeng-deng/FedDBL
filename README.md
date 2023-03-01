@@ -74,15 +74,10 @@ If you find the code useful, please consider citing our paper using the followin
 ```
 @misc{https://doi.org/10.48550/arxiv.2302.12662,
   doi = {10.48550/ARXIV.2302.12662},
-  
   url = {https://arxiv.org/abs/2302.12662},
-  
   author = {Deng, Tianpeng and Huang, Yanqi and Shi, Zhenwei and Lin, Jiatai and Dou, Qi and Zhao, Ke and Liu, Fang-Fang and Jia, Yu-Mian and Wang, Jin and Zhao, Bingchao and Liang, Changhong and Liu, Zaiyi and Guo, Xiao-jing and Han, Guoqiang and Chen, Xin and Han, Chu},
-  
   title = {FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification},
-  
   publisher = {arXiv},
-  
   year = {2023}
 }
 
