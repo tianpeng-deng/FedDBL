@@ -72,13 +72,15 @@ To run on BCSS, you need to change the weights because there are three users in 
 ## Citation
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 ```
-@misc{deng2023feddbl,
-      title={FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification}, 
-      author={Tianpeng Deng and Yanqi Huang and Guoqiang Han and Zhenwei Shi and Jiatai Lin and Qi Dou and Zaiyi Liu and Xiao-jing Guo and C. L. Philip Chen and Chu Han},
-      year={2023},
-      eprint={2302.12662},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
-}
+@ARTICLE{deng2024feddbl,
+  author={Deng, Tianpeng and Huang, Yanqi and Han, Guoqiang and Shi, Zhenwei and Lin, Jiatai and Dou, Qi and Liu, Zaiyi and Guo, Xiao-jing and Chen, C. L. Philip and Han, Chu},
+  journal={IEEE Transactions on Cybernetics}, 
+  title={FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-14},
+  keywords={Training;Data models;Computational modeling;Pathology;Data privacy;Medical diagnostic imaging;Federated learning;Broad learning (BL);communication and data efficiency;federated learning (FL);histopathological tissue classification},
+  doi={10.1109/TCYB.2024.3403927}}
 
 ```
