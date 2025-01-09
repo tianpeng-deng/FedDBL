@@ -73,7 +73,6 @@ To run on BCSS, you need to change the weights because there are three users in 
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 ```
 @ARTICLE{deng2024feddbl,
-@ARTICLE{10572001,
   author={Deng, Tianpeng and Huang, Yanqi and Han, Guoqiang and Shi, Zhenwei and Lin, Jiatai and Dou, Qi and Liu, Zaiyi and Guo, Xiao-jing and Philip Chen, C. L. and Han, Chu},
   journal={IEEE Transactions on Cybernetics}, 
   title={FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification}, 
