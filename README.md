@@ -4,7 +4,7 @@
 ## Introduction
 The implementation of:
 
-[FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification](https://arxiv.org/abs/2302.12662)
+[FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification](https://ieeexplore.ieee.org/document/10572001)
 
 ## Abstract
 Histopathological tissue classification is a fundamental task in computational pathology. Deep learning-based models have achieved superior performance but centralized training with data centralization suffers from the privacy leakage problem. Federated learning (FL) can safeguard privacy by keeping training samples locally, but existing FL-based frameworks require a large number of well-annotated training samples and numerous rounds of communication which hinder their practicability in the real-world clinical scenario. In this paper, we propose a universal and lightweight federated learning framework, named Federated Deep-Broad Learning (FedDBL), to achieve superior classification performance with limited training samples and only one-round communication. By simply associating a pre-trained deep learning feature extractor, a fast and lightweight broad learning inference system and a classical federated aggregation approach, FedDBL can dramatically reduce data dependency and improve communication efficiency. Five-fold cross-validation demonstrates that FedDBL greatly outperforms the competitors with only one-round communication and limited training samples, while it even achieves comparable performance with the ones under multiple-round communications. Furthermore, due to the lightweight design and one-round communication, FedDBL reduces the communication burden from 4.6GB to only 276.5KB per client using the ResNet-50 backbone at 50-round training. Since no data or deep model sharing across different clients, the privacy issue is well-solved and the model security is guaranteed with no model inversion attack risk.
@@ -73,14 +73,16 @@ To run on BCSS, you need to change the weights because there are three users in 
 If you find the code useful, please consider citing our paper using the following BibTeX entry.
 ```
 @ARTICLE{deng2024feddbl,
-  author={Deng, Tianpeng and Huang, Yanqi and Han, Guoqiang and Shi, Zhenwei and Lin, Jiatai and Dou, Qi and Liu, Zaiyi and Guo, Xiao-jing and Chen, C. L. Philip and Han, Chu},
+@ARTICLE{10572001,
+  author={Deng, Tianpeng and Huang, Yanqi and Han, Guoqiang and Shi, Zhenwei and Lin, Jiatai and Dou, Qi and Liu, Zaiyi and Guo, Xiao-jing and Philip Chen, C. L. and Han, Chu},
   journal={IEEE Transactions on Cybernetics}, 
   title={FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification}, 
   year={2024},
-  volume={},
-  number={},
-  pages={1-14},
+  volume={54},
+  number={12},
+  pages={7851-7864},
   keywords={Training;Data models;Computational modeling;Pathology;Data privacy;Medical diagnostic imaging;Federated learning;Broad learning (BL);communication and data efficiency;federated learning (FL);histopathological tissue classification},
   doi={10.1109/TCYB.2024.3403927}}
+
 
 ```
