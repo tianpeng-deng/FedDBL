@@ -3,34 +3,22 @@ import os
 import sys
 import argparse
 import pickle
-from re import T
 from tqdm import tqdm
 import numpy as np
-from collections import defaultdict, OrderedDict
-from copy import deepcopy
-from functools import reduce
 
 import torch
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 from torch import nn
-from torch import optim
-import torch.nn.functional as F
 
 from tool.Logger import Logger
 from tool.dataset import ImageDataset
 from tool.DBL import DBL_net
 from tool.resnet import resnet50
 from tool.ctran import ctranspath
-from tool.moco import builder_infence
-from functools import partial
-from tool import vits
 
 from sklearn.metrics import accuracy_score,f1_score
-from sklearn import decomposition
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.manifold import TSNE
-import matplotlib.pyplot as plt
+
 
 seed = 2048
 torch.manual_seed(seed)
@@ -46,7 +34,7 @@ AGG_WEIGHT = {1: 0.28,
 #               3: 0.197}          
 
 def create_model(model_name, n_class, args):
-    elif model_name == 'r50':
+    if model_name == 'r50':
         ## Load ImageNet pretrained ResNet-50 backbone
         model = resnet50(pretrained=True)
         model.fc = nn.Linear(512 * model.block.expansion, n_class)
@@ -153,6 +141,7 @@ def main(args):
             validset = ImageDataset(data_path = os.path.join(args.validdir, 'Client_' + str(client) + '/Valid/'), n_class=args.n_class)
             print('Client {}, training samples {}'.format(client, len(trainset)))
 
+            fname = f'{args.model_name}_client_{client}'
             # Local DBL Training Phase
             reg = 0.001
             n_components = min(int(len(trainset)*0.9),  2000)
